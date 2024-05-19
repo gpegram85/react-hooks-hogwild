@@ -91,6 +91,12 @@ ul {
   opacity: 1;
 }
 
+.pigTile img {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .minBackgroundSneak {
   position: absolute;
   width: inherit;
@@ -149,4 +155,8 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+.hidden {
+  display: none;
 }
